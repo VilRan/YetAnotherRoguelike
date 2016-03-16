@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rooms> 
+  
+  <Room>
+    <ID>CorridorNarrow</ID>
+    <Weight>30</Weight>
+    <Definitions>
+      <Tile Symbol="." ID="Floor"/>
+      <Tile Symbol="#" ID="Wall"/>
+      <Random Symbol="?" Connected="false">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+    </Definitions>
+    <Rows>
+      <Row>#.#</Row>
+      <Row>?.?</Row>
+      <Row>#.#</Row>
+    </Rows>
+  </Room>
+  
+  <Room>
+    <ID>Corridor</ID>
+    <Weight>20</Weight>
+    <Definitions>
+      <Tile Symbol="." ID="Floor"/>
+      <Tile Symbol="#" ID="Wall"/>
+      <Random Symbol="?" Connected="false">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+    </Definitions>
+    <Rows>
+      <Row>#..#</Row>
+      <Row>?..?</Row>
+      <Row>#..#</Row>
+    </Rows>
+  </Room>
+  
+  <Room>
+    <ID>CorridorWide</ID>
+    <Weight>10</Weight>
+    <Definitions>
+      <Tile Symbol="." ID="Floor"/>
+      <Tile Symbol="#" ID="Wall"/>
+      <Random Symbol="?" Connected="false">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+    </Definitions>
+    <Rows>
+      <Row>#...#</Row>
+      <Row>?...?</Row>
+      <Row>#...#</Row>
+    </Rows>
+  </Room>
+  
+  <Room>
+    <ID>HubTiny</ID>
+    <Weight>20</Weight>
+    <Definitions>
+      <Tile Symbol="." ID="Floor"/>
+      <Tile Symbol="#" ID="Wall"/>
+      <Random Symbol="?" Connected="false">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+    </Definitions>
+    <Rows>
+      <Row>#?#</Row>
+      <Row>?.?</Row>
+      <Row>#?#</Row>
+    </Rows>
+  </Room>
+  
+  <Room>
+    <ID>HubSmall</ID>
+    <Weight>10</Weight>
+    <Definitions>
+      <Tile Symbol="." ID="Floor"/>
+      <Tile Symbol="#" ID="Wall"/>
+      <Random Symbol="1" Connected="true">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+      <Random Symbol="2" Connected="true">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+      <Random Symbol="3" Connected="true">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+      <Random Symbol="4" Connected="true">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+    </Definitions>
+    <Rows>
+      <Row>#11#</Row>
+      <Row>2..3</Row>
+      <Row>2..3</Row>
+      <Row>#44#</Row>
+    </Rows>
+  </Room>
+  
+  <Room>
+    <ID>HubMedium</ID>
+    <Weight>5</Weight>
+    <Definitions>
+      <Tile Symbol="." ID="Floor"/>
+      <Tile Symbol="#" ID="Wall"/>
+      <Random Symbol="1" Connected="true">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+      <Random Symbol="2" Connected="true">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+      <Random Symbol="3" Connected="true">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+      <Random Symbol="4" Connected="true">
+        <Tile Symbol="." Weight="10.0"/>
+        <Tile Symbol="#" Weight="20.0"/>
+      </Random>
+    </Definitions>
+    <Rows>
+      <Row>#111#</Row>
+      <Row>2...3</Row>
+      <Row>2...3</Row>
+      <Row>2...3</Row>
+      <Row>#444#</Row>
+    </Rows>
+  </Room>
+  
+</Rooms>

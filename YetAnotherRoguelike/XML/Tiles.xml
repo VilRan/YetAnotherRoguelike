@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tiles>
+  <Tile>
+    <ID>Void</ID>
+    <Symbol>#</Symbol>
+    <Color>0</Color>
+    <Passable>0</Passable>
+    <Transparent>1</Transparent>
+  </Tile>
+  <Tile>
+    <ID>Floor</ID>
+    <Symbol>.</Symbol>
+    <Color>7</Color>
+    <Passable>1</Passable>
+    <Transparent>1</Transparent>
+  </Tile>
+  <Tile>
+    <ID>Wall</ID>
+    <Symbol>#</Symbol>
+    <Color>7</Color>
+    <Passable>0</Passable>
+    <Transparent>0</Transparent>
+  </Tile>
+</Tiles>

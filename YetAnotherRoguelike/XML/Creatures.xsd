@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Creatures"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name="Creatures">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Creature" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              
+              <xs:element name="ID" type="xs:string"/>
+              <xs:element name="Name" type="xs:string"/>
+              <xs:element name="Article" type="xs:string"/>
+              <xs:element name="Symbol" type="xs:string"/>
+              <xs:element name="Color" type="xs:byte"/>
+              <xs:element name="Faction" type="xs:string"/>
+              <xs:element name="Behavior" type="xs:string"/>
+              <xs:element name="ItemSet" type="xs:string"/>
+              <xs:element name="NaturalWeapons">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="NaturalWeapon" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MaxHP" type="xs:short"/>
+              <xs:element name="SpeedMin" type="xs:short"/>
+              <xs:element name="SpeedMax" type="xs:short"/>
+              <xs:element name="DodgeMin" type="xs:short"/>
+              <xs:element name="DodgeMax" type="xs:short"/>
+              
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

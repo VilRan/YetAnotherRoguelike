@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Tiles"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name="Tiles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Tile" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:string"/>
+              <xs:element name="Symbol" type="xs:string"/>
+              <xs:element name="Color" type="xs:byte"/>
+              <xs:element name="Passable" type="xs:boolean"/>
+              <xs:element name="Transparent" type="xs:boolean"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

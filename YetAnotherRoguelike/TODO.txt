@@ -1,0 +1,23 @@
+
+IMPORTANT
+-Dungeon entrance and multiple levels
+-SaveGameState
+-LoadGameState
+
+
+LESS IMPORTANT
+
+-LogEvent class
+	-Color-code important messages
+	-IsKnown()
+	-HitLogEvent class
+	-DeathLogEvent class
+-DamageType class
+-HallOfHameState
+-Animation system
+-Memory for Behavior
+-Creature.Behavior
+	-ProduceNoise()
+	-CanHear()
+	-CanDetect()
+-Localisation?

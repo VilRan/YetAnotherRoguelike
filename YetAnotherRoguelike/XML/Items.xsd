@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Items"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name="Items">
+    <xs:complexType>
+      <xs:sequence>
+        
+        <xs:element name="Weapons">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Weapon" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ID"/>
+                    <xs:element name="Name"/>
+                    <xs:element name="Article"/>
+                    <xs:element name="Symbol"/>
+                    <xs:element name="Color"/>
+                    <xs:element name="DamageMin"/>
+                    <xs:element name="DamageMax"/>
+                    <xs:element name="Accuracy"/>
+                    <xs:element name="Parry"/>
+                    <xs:element name="Droppable" type="xs:boolean"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="Armors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Armor" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ID"/>
+                    <xs:element name="Name"/>
+                    <xs:element name="Article"/>
+                    <xs:element name="Symbol"/>
+                    <xs:element name="Color"/>
+                    <xs:element name="DefenseMin"/>
+                    <xs:element name="DefenseMax"/>
+                    <xs:element name="Droppable" type="xs:boolean"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="Consumables">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Consumable" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ID"/>
+                    <xs:element name="Name"/>
+                    <xs:element name="Article"/>
+                    <xs:element name="Symbol"/>
+                    <xs:element name="Color"/>
+                    <xs:element name="Effects">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Effect" maxOccurs="unbounded" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Droppable" type="xs:boolean"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
+

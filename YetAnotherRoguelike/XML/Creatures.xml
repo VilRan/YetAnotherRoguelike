@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Creatures>
+  <!--
+  <Creature>
+    <ID></ID>
+    <Name></Name>
+    <Article></Article>
+    <Symbol></Symbol>
+    <Color></Color>
+    <Faction></Faction>
+    <Behavior></Behavior>
+    <DefaultArmor></DefaultArmor>
+    <NaturalWeapons>
+      <NaturalWeapon></NaturalWeapon>
+    </NaturalWeapons>
+    <DefaultWeapons>
+      <DefaultWeapon></DefaultWeapon>
+    </DefaultWeapons>
+    <MaxHP></MaxHP>
+    <SpeedMin></SpeedMin>
+    <SpeedMax></SpeedMax>
+    <DodgeMin></DodgeMin>
+    <DodgeMax></DodgeMax>
+  </Creature>
+  -->
+  
+  <Creature>
+    <ID>Player</ID>
+    <Name>You</Name>
+    <Article></Article>
+    <Symbol>@</Symbol>
+    <Color>15</Color>
+    <Faction>Player</Faction>
+    <Behavior>Civilized</Behavior>
+    <ItemSet>JustAKnife</ItemSet>
+    <NaturalWeapons>
+      <NaturalWeapon>Fist</NaturalWeapon>
+    </NaturalWeapons>
+    <MaxHP>50</MaxHP>
+    <SpeedMin>1000</SpeedMin>
+    <SpeedMax>1000</SpeedMax>
+    <DodgeMin>20</DodgeMin>
+    <DodgeMax>20</DodgeMax>
+  </Creature>
+
+  <Creature>
+    <ID>Guard</ID>
+    <Name>Guard</Name>
+    <Article>a </Article>
+    <Symbol>G</Symbol>
+    <Color>11</Color>
+    <Faction>Civilized</Faction>
+    <Behavior>Civilized</Behavior>
+    <ItemSet>GuardEquipment</ItemSet>
+    <NaturalWeapons>
+      <NaturalWeapon>Fist</NaturalWeapon>
+    </NaturalWeapons>
+    <MaxHP>40</MaxHP>
+    <SpeedMin>800</SpeedMin>
+    <SpeedMax>1200</SpeedMax>
+    <DodgeMin>5</DodgeMin>
+    <DodgeMax>15</DodgeMax>
+  </Creature>
+
+  <Creature>
+    <ID>Knight</ID>
+    <Name>Knight</Name>
+    <Article>a </Article>
+    <Symbol>K</Symbol>
+    <Color>11</Color>
+    <Faction>Civilized</Faction>
+    <Behavior>Monster</Behavior>
+    <ItemSet>KnightEquipment</ItemSet>
+    <NaturalWeapons>
+      <NaturalWeapon>Fist</NaturalWeapon>
+    </NaturalWeapons>
+    <MaxHP>60</MaxHP>
+    <SpeedMin>1000</SpeedMin>
+    <SpeedMax>1400</SpeedMax>
+    <DodgeMin>10</DodgeMin>
+    <DodgeMax>15</DodgeMax>
+  </Creature>
+
+  <Creature>
+    <ID>Zombie</ID>
+    <Name>Zombie</Name>
+    <Article>a </Article>
+    <Symbol>z</Symbol>
+    <Color>13</Color>
+    <Faction>Undead</Faction>
+    <Behavior>Monster</Behavior>
+    <ItemSet>JustAKnife</ItemSet>
+    <NaturalWeapons>
+      <NaturalWeapon>Fist</NaturalWeapon>
+    </NaturalWeapons>
+    <MaxHP>30</MaxHP>
+    <SpeedMin>400</SpeedMin>
+    <SpeedMax>600</SpeedMax>
+    <DodgeMin>0</DodgeMin>
+    <DodgeMax>5</DodgeMax>
+  </Creature>
+
+  <Creature>
+    <ID>ZombieWarrior</ID>
+    <Name>Zombie Warrior</Name>
+    <Article>a </Article>
+    <Symbol>Z</Symbol>
+    <Color>13</Color>
+    <Faction>Undead</Faction>
+    <Behavior>Monster</Behavior>
+    <ItemSet>GuardEquipment</ItemSet>
+    <NaturalWeapons>
+      <NaturalWeapon>Fist</NaturalWeapon>
+    </NaturalWeapons>
+    <MaxHP>40</MaxHP>
+    <SpeedMin>500</SpeedMin>
+    <SpeedMax>700</SpeedMax>
+    <DodgeMin>5</DodgeMin>
+    <DodgeMax>10</DodgeMax>
+  </Creature>
+
+  <Creature>
+    <ID>RedDragon</ID>
+    <Name>Red Dragon</Name>
+    <Article>a </Article>
+    <Symbol>D</Symbol>
+    <Color>12</Color>
+    <Faction>Dragon</Faction>
+    <Behavior>Monster</Behavior>
+    <ItemSet>Nothing</ItemSet>
+    <NaturalWeapons>
+      <NaturalWeapon>DragonClaw</NaturalWeapon>
+    </NaturalWeapons>
+    <MaxHP>250</MaxHP>
+    <SpeedMin>1200</SpeedMin>
+    <SpeedMax>1600</SpeedMax>
+    <DodgeMin>5</DodgeMin>
+    <DodgeMax>10</DodgeMax>
+  </Creature>
+
+</Creatures>

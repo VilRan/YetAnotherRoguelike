@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemSets>
+  <ItemSet>
+    <ID>Nothing</ID>
+  </ItemSet>
+  
+  <ItemSet>
+    <ID>JustAKnife</ID>
+    <Item>
+      <ID>Knife</ID>
+      <Chance>1.0</Chance>
+    </Item>
+  </ItemSet>
+  
+  <ItemSet>
+    <ID>GuardEquipment</ID>
+    <Item>
+      <ID>ChainShirt</ID>
+      <Chance>1.0</Chance>
+    </Item>
+    <Item>
+      <ID>Axe</ID>
+      <Chance>1.0</Chance>
+    </Item>
+  </ItemSet>
+
+  <ItemSet>
+    <ID>KnightEquipment</ID>
+    <Item>
+      <ID>ChainHauberk</ID>
+      <Chance>1.0</Chance>
+    </Item>
+    <Item>
+      <ID>Sword</ID>
+      <Chance>1.0</Chance>
+    </Item>
+  </ItemSet>
+  
+</ItemSets>

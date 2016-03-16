@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items
+  >
+  <Weapons>
+    <!--
+    <Weapon>
+      <ID></ID>
+      <Name></Name>
+      <Article></Article>
+      <Symbol></Symbol>
+      <DamageMin></DamageMin>
+      <DamageMax></DamageMax>
+      <Accuracy></Accuracy>
+      <Parry></Parry>
+      <Droppable></Droppable>
+    </Weapon>
+    -->
+    
+    <Weapon>
+      <ID>Fist</ID>
+      <Name>Punch</Name>
+      <Article>a </Article>
+      <Symbol>/</Symbol>
+      <Color>15</Color>
+      <DamageMin>4</DamageMin>
+      <DamageMax>8</DamageMax>
+      <Accuracy>20</Accuracy>
+      <Parry>5</Parry>
+      <Droppable>0</Droppable>
+    </Weapon>
+
+    <Weapon>
+      <ID>Knife</ID>
+      <Name>Knife</Name>
+      <Article>a </Article>
+      <Symbol>/</Symbol>
+      <Color>15</Color>
+      <DamageMin>8</DamageMin>
+      <DamageMax>16</DamageMax>
+      <Accuracy>25</Accuracy>
+      <Parry>10</Parry>
+      <Droppable>1</Droppable>
+    </Weapon>
+    
+    <Weapon>
+      <ID>Sword</ID>
+      <Name>Sword</Name>
+      <Article>a </Article>
+      <Symbol>/</Symbol>
+      <Color>15</Color>
+      <DamageMin>10</DamageMin>
+      <DamageMax>20</DamageMax>
+      <Accuracy>40</Accuracy>
+      <Parry>20</Parry>
+      <Droppable>1</Droppable>
+    </Weapon>
+    
+    <Weapon>
+      <ID>Buckler</ID>
+      <Name>Buckler</Name>
+      <Article>a </Article>
+      <Symbol>)</Symbol>
+      <Color>15</Color>
+      <DamageMin>6</DamageMin>
+      <DamageMax>12</DamageMax>
+      <Accuracy>30</Accuracy>
+      <Parry>30</Parry>
+      <Droppable>1</Droppable>
+    </Weapon>
+    
+    <Weapon>
+      <ID>Axe</ID>
+      <Name>Axe</Name>
+      <Article>an </Article>
+      <Symbol>/</Symbol>
+      <Color>15</Color>
+      <DamageMin>12</DamageMin>
+      <DamageMax>24</DamageMax>
+      <Accuracy>15</Accuracy>
+      <Parry>10</Parry>
+      <Droppable>1</Droppable>
+    </Weapon>
+    
+    <Weapon>
+      <ID>DragonClaw</ID>
+      <Name>Dragon Claw</Name>
+      <Article>a </Article>
+      <Symbol>/</Symbol>
+      <Color>15</Color>
+      <DamageMin>20</DamageMin>
+      <DamageMax>40</DamageMax>
+      <Accuracy>50</Accuracy>
+      <Parry>10</Parry>
+      <Droppable>0</Droppable>
+    </Weapon>
+    
+  </Weapons>
+
+  <Armors>
+    <!--
+    <Armor>
+      <ID></ID>
+      <Name></Name>
+      <Article></Article>
+      <Symbol></Symbol>
+      <DefenseMin></DefenseMin>
+      <DefenseMax></DefenseMax>
+      <Droppable></Droppable>
+    </Armor>
+    -->
+    
+    <Armor>
+      <ID>None</ID>
+      <Name>None</Name>
+      <Article></Article>
+      <Symbol>]</Symbol>
+      <Color>15</Color>
+      <DefenseMin>0</DefenseMin>
+      <DefenseMax>0</DefenseMax>
+      <Droppable>0</Droppable>
+    </Armor>
+
+    <Armor>
+      <ID>ChainShirt</ID>
+      <Name>Chain Shirt</Name>
+      <Article>a </Article>
+      <Symbol>]</Symbol>
+      <Color>15</Color>
+      <DefenseMin>2</DefenseMin>
+      <DefenseMax>16</DefenseMax>
+      <Droppable>1</Droppable>
+    </Armor>
+    
+    <Armor>
+      <ID>ChainHauberk</ID>
+      <Name>Chain Hauberk</Name>
+      <Article>a </Article>
+      <Symbol>]</Symbol>
+      <Color>15</Color>
+      <DefenseMin>8</DefenseMin>
+      <DefenseMax>16</DefenseMax>
+      <Droppable>1</Droppable>
+    </Armor>
+
+    <Armor>
+      <ID>DragonScales</ID>
+      <Name>Dragon Scales</Name>
+      <Article></Article>
+      <Symbol>^</Symbol>
+      <Color>12</Color>
+      <DefenseMin>15</DefenseMin>
+      <DefenseMax>25</DefenseMax>
+      <Droppable>0</Droppable>
+    </Armor>
+
+  </Armors>
+
+  <Consumables>
+    <!--
+    <Consumable>
+      <ID></ID>
+      <Name></Name>
+      <Article></Article>
+      <Symbol></Symbol>
+      <Effects>
+        <Effect></Effect>
+      </Effects>
+    </Consumable>
+    -->
+
+    <Consumable>
+      <ID>HealingPotion</ID>
+      <Name>Healing Potion</Name>
+      <Article>a </Article>
+      <Symbol>:</Symbol>
+      <Color>12</Color>
+      <Effects>
+        <Effect>SmallHeal</Effect>
+      </Effects>
+      <Droppable>0</Droppable>
+    </Consumable>
+    
+  </Consumables>
+  
+</Items>

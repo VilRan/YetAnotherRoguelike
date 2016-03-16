@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Rooms"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name="Rooms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Room" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              
+              <xs:element name="ID"/>
+              <xs:element name="Weight"/>
+
+              <xs:element name="Definitions">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Tile" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:attribute name="Symbol" type="xs:string" use="required"/>
+                        <xs:attribute name="ID" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Random" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Tile" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:attribute name="Symbol" type="xs:string" use="required"/>
+                              <xs:attribute name="Weight" type="xs:double" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Symbol" type="xs:string" use="required"/>
+                        <xs:attribute name="Connected" type="xs:boolean" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              
+              <xs:element name="Rows">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Row" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>
